@@ -1,0 +1,8 @@
+local InfiniteJumpEnable = true
+game:GetService("InputService").Jump request:connect(function( )
+if InfiniteJumpEnable then
+
+game:GetService"Players".Local.Character:FindFirstChildOfClass'humanoid':Change state("Jumping")
+
+    end
+(end)
